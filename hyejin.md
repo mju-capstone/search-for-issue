@@ -1,5 +1,7 @@
-Hyejin's Idea for this project
+Idea for this project
 ===============================
+
+Contributor : [임혜진](https://github.com/hejin8307)
 
 #### GOAL : 서울시 대중교통 인구밀도 및 통행 패턴
 - 시간별(특히 출퇴근 시간) 대중교통 인구밀도 분석

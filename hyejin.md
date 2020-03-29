@@ -10,10 +10,11 @@ Hyejin's Idea for this project
 ##### SOURCE OF DATA
 - [지하철 승하차 API](https://data.seoul.go.kr/dataList/OA-12252/S/1/datasetView.do)
 
-    !(https://user-images.githubusercontent.com/31836035/77851143-5a688b00-7212-11ea-93aa-ba3004021ee1.PNG)
+    ![지하철 승하차 API](https://user-images.githubusercontent.com/31836035/77851143-5a688b00-7212-11ea-93aa-ba3004021ee1.PNG)
 
 - [버스 승하차 API](https://data.seoul.go.kr/dataList/OA-12913/S/1/datasetView.do)
 
-    !(https://user-images.githubusercontent.com/31836035/77851098-f6de5d80-7211-11ea-8646-a6608fa26739.PNG)
+    ![버스 승하차 API](https://user-images.githubusercontent.com/31836035/77851098-f6de5d80-7211-11ea-8646-a6608fa26739.PNG)
 
-##### ![Example of Visualization](https://user-images.githubusercontent.com/31836035/77850900-87b43980-7210-11ea-9f8d-ad90b66f7358.jpg)
+##### Example of Visualization
+![Example of Visualization](https://user-images.githubusercontent.com/31836035/77850900-87b43980-7210-11ea-9f8d-ad90b66f7358.jpg)

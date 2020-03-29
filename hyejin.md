@@ -1,4 +1,4 @@
-Hyejin's IDEA for this project
+Hyejin's Ideas for this project
 =============
 1. 미세먼지 예측
 - 현재까지 미세먼지 변동 & 미래 예측

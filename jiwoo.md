@@ -1,7 +1,7 @@
 #### 2020-1 Capstone Design Project
 Search for issue
 -------------
-Contributor :raising_hand: : 이지우
+Contributor :raising_hand: : [이지우](https://github.com/lee-jiu, "이지우")
 
 ### My Issue
 - [교통] 서울특별시 공공자전거 대여소 (따릉이)
@@ -10,14 +10,49 @@ Contributor :raising_hand: : 이지우
 
 
 #### Ⅰ. 서울특별시 공공자전거 대여소 (따릉이)
- 1.   
+ 1. 문제 정의  
+  - 자전거 대여소의 오프라인(Offline)특성상, 위치 정보 및 실시간 대여 정보를 파악하기 힘듦.   
+  - 따릉이 대여 후 어느정도의 시간이 흘렀는지 개인이 별도의 행위(ex. 기록, 알람)를 하지 않으면 확인이 어려움.  
+   
+ > #### :point_right: 실시간(Online) 데이터를 활용해 위치, 대여 정보를 파악하고 사용시간을 간편하게 볼 수 있는 서비스 필요  
+   
+ * * *
+   
+     
+      
+  2. 데이터 수집  
+ - 서울 열린 데이터 광장 제공 Open API  
+   [서울특별시 공공자전거 대여소 정보](http://data.seoul.go.kr/dataList/OA-13252/F/1/datasetView.do;jsessionid=CBE9704CC496FEC9796117C0EB260453.new_portal-svr-21, "서울특별시 공공자전거 대여소 정보")
+   , [서울특별시 공공자전거 실시간 대여정보](http://data.seoul.go.kr/dataList/OA-15493/A/1/datasetView.do#, "서울특별시 공공자전거 실시간 대여정보")
+   
+   <img width="497" alt="issue_jw_1" src="https://user-images.githubusercontent.com/56306637/77856429-171e1480-7232-11ea-9de3-9c51245459b4.PNG">    
+     
+     > API sample URL 이미지  
+     > 변수명은 서울 열린 데이터 광장 사이트 참고 
+   * * *
+3. 데이터 활용   
+> * 실시간 대여소 위치, 대여 여부 확인  
+> * 사용 시간 확인 및 알림 
+> * 그 외 : 사용자 데이터 분석  
+>   * 자주 가는 대여소 추천 기능  
+>   * 가까운 대여소 추천 기능  
+
+완성형 서비스 예시 : [서울 자전거 따릉이](https://www.bikeseoul.com/app/station/moveStationRealtimeStatus.do, "서울 자전거 따릉이") 
  
+* * *
+4. 데이터 시각화 도구  
+<img width="715" alt="issue_jw_2" src="https://user-images.githubusercontent.com/56306637/77857216-2bb0db80-7237-11ea-8ae6-2abf0a9fea35.PNG">
+
+- 하둡(hadoop) 기반 [apache zeppelin](https://zeppelin.apache.org/, "apache zeppelin")
+> 현재 다룰 수 있는 시각화 도구는 zeppelin 뿐이나, 추후 다른 시각화 도구 또한 조사 후 공부할 예정...:two_hearts:  
+  
+    
+      
+      
 
 
 
-
-
-
+* * *
 #### Ⅱ.  코로나바이러스감염증-19(COVID-19)
 
  

@@ -27,16 +27,33 @@ Contributor :raising_hand: : [이지우](https://github.com/lee-jiu, "이지우"
    
    
 
-
-
+* * *
 2. 데이터 수집
 
+* 공공 API 이용     
 [공적 마스크 판매 현황 조회 API](https://app.swaggerhub.com/apis-docs/Promptech/public-mask-info/20200307-oas3#/StoreSaleResult, "공적 마스크 판매 현황 조회 API")
 > 약국, 우체국, 농협 등의 마스크 판매처 정보 제공  
 > 마스크 재고 상태 등의 판매 정보 제공  
-> 비고 : 두 정보는 각각 제공 됨. 함께 제공되지 않음  
+> 위도/경도, 지역별 판매 정보 제공 
+
+* Web scraping 기법 이용    
+[국민안심병원 및 선별진료소 현황](https://www.mohw.go.kr/react/popup_200128.html, "국민안심병원 및 선별진료소 현황")   
+   
+<img width="304" alt="issue_jw_3" src="https://user-images.githubusercontent.com/56306637/77858437-839f1080-723e-11ea-9678-2083224e9201.PNG">
+> 스크래핑 기법을 이용해 필요한 데이터만 추출   
+
+
 
 * * *
+3. 데이터 활용   
+> * 실시간 마스크 재고, 약국 위치 조회 
+> * 안심병원 및 선별 진료소 조회 
+> * 그 외 : 사용자 데이터 분석  
+>   * 가까운 병원 및 약국 추천 기능
+>   * 자주 이용하는 약국 및 병원 조회 기능 
+
+
+* * * 
 4. 데이터 시각화 도구  
 <img width="715" alt="issue_jw_2" src="https://user-images.githubusercontent.com/56306637/77857216-2bb0db80-7237-11ea-8ae6-2abf0a9fea35.PNG">
 
@@ -69,7 +86,7 @@ Contributor :raising_hand: : [이지우](https://github.com/lee-jiu, "이지우"
 > * 실시간 대여소 위치, 대여 여부 확인  
 > * 사용 시간 확인 및 알림 
 > * 그 외 : 사용자 데이터 분석  
->   * 자주 가는 대여소 추천 기능  
+>   * 자주 가는 대여소  기능  
 >   * 가까운 대여소 추천 기능  
 
 완성형 서비스 예시 : [서울 자전거 따릉이](https://www.bikeseoul.com/app/station/moveStationRealtimeStatus.do, "서울 자전거 따릉이") 

@@ -11,7 +11,7 @@
   - 주요 국가별 확진 현황 (혹은 확진자 수가 많은 순..)
   - 우리나라 확진 현황
   - 서울 확진 현황
-- 실시간 마스크 판매 정보 
+- 실시간 마스크 판매 정보 >> 그래서 어디가 부족한 지, 어느 곳에 우선적으로 마스크가 보급되어야 하는지 분석
 - 
 
 
@@ -53,8 +53,13 @@
 
 > 국가별 확진자, 사망자, 완치, 사망률, 완치율, 발생률 조회 가능
 
+- [Kaggle](https://www.kaggle.com)
+  - [COVID 19 world dataset](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge)
+    > 4기가 dataset.. 데이터 전처리 꼼꼼히 해줘야 할 듯 ㅠ   
+    > 좋은 데이터들이 많음. 환자 정보, search trend, 지역 정보 등등.. 제대로 활용만 한다면..!
 
-### Data Visualization
+
+### Data Visualization Tool
 
 - [D3](https://d3js.org)
 
@@ -64,15 +69,19 @@
 
 - R
 - Python
+- iOS ❓
+
+### 조사하며..
+
+- 최근에 발생한 이슈다 보니 아무래도 빅데이터들이 부족함. 실시간 데이터들이 대부분임 
+
 
 
 ### 추가 분석 사항
 
 - 마스크 검색 현황과 연관 지어도 괜찮을 듯 함 (이거 좀 더 찾아보기로.. )
-- 
-
+- 그 전 전염병(사스, 메르스 등) 추이와 비교해보기
 
 
 > 참고 자료들 : [코로나 데이터 분석 사이트](https://pinkwink.kr/1274),
 [소비자 반응 분석](http://www.openads.co.kr/nTrend/article/소비자분석/7029/코로나19-빅데이터-소비자-반응-분석-마스크)
-

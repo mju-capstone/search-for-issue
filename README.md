@@ -34,8 +34,7 @@
 
 ### DATA SET
 
-- [과거 미세먼지 데이터](https://www.airkorea.or.kr/web/sidoQualityCompare?itemCode=10008&pMENU_NO=102)
-- [국내 공장 데이터](https://www.femis.go.kr/femispo/complexInfo/frequentStatDetail.do)
+- [국내 공장 데이터](https://www.femis.go.kr/femispo/complexInfo/frequentStatList.do#none)
 - [우리나라 기상 데이터](https://data.kma.go.kr/data/air/selectAmosRltmList.do?pgmNo=575)
-- [중국 미세먼지 데이터](https://aqicn.org/data-platform/register/kr/)
+- [중국 미세먼지 데이터 & 우리나라 과거 미세먼지 데이터](https://aqicn.org/data-platform/register/kr/)
 - [교통량 데이터](https://topis.seoul.go.kr/refRoom/openRefRoom_2.do)
